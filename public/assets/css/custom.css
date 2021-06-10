@@ -1,0 +1,46 @@
+/* Add here all your CSS customizations */
+.card-img{
+overflow: hidden!important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+    font-family: 'Font Awesome 5 Free';
+  content: "\f105";
+  font-size: 55px;
+  color: black;
+  font-weight: bolder;
+}
+.dropzone .dz-preview.dz-error:hover .dz-error-message {
+  display: none!important;
+}
+.dz-error-mark{
+  display: none!important;
+
+}
+.carousel-control-prev-icon:after {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f104";
+    font-size: 55px;
+    color: black;
+    font-weight: bolder;
+}
+/* .dropdown-menu.notification-menu.show{
+  transform: translate3d(-14px, 30px, 0px)!important;
+} */
+
+td.dsc p{
+  overflow: hidden;
+}
+li.listnotif p { word-break: break-all!important; overflow:hidden }
+.sub-notif{
+  overflow-x: hidden;
+    height: 200px;
+}
+li.listnotif a.dropdown-item {
+  white-space: unset!important;
+}
